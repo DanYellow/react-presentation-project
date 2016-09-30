@@ -29,7 +29,7 @@ export default class FormMessage extends React.Component {
     const { messages } = this.props;
     return (
       <div>
-        <h1>{ messages[messages.length - 1] }</h1>
+        <h1>{ messages }</h1>
         <form onSubmit={(e) => this.submitMessage(e)}>
           <textarea onChange={(e) => this.handleChange(e)} 
           value={this.props.content} autoFocus="true" />

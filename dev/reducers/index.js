@@ -2,13 +2,10 @@ import { combineReducers } from 'redux'
 
 import * as ActionTypes from '../constants/ActionTypes'
 
-const messages = function (state = [], action) {
+const messages = function (state = '', action) {
   switch (action.type) {
     case 'ADD_MESSAGE':
-      return [
-        ...state,
-        action.text
-      ]
+      return action.text;
     default:
       return state;
   }
