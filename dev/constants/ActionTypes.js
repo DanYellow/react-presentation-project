@@ -1,2 +1,0 @@
-export const ADD_MESSAGE = 'ADD_MESSAGE'
-export const UPDATE_TEXTAREA = 'UPDATE_TEXTAREA'
