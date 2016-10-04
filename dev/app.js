@@ -7,7 +7,7 @@ import { createStore } from 'redux'
 import reducer from './reducers'
 import Messages from './containers/Messages'
 
-let store    = createStore(reducer)
+let store    = createStore(reducer);
 
 
 render(
